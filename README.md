@@ -1,4 +1,4 @@
-# CGC NFT Marketplace Program
+# Solana NFT Marketplace Program
 
 ## About
 
@@ -51,9 +51,7 @@ $ yarn deploy
 
 - Copy `config/live.json` file named `YOUR COLLECTION NAME.json`
 
-    For example, if the marketplace support `SOLCHICKS`, named `solchicks.json`
-    
-    `Collection Name` must same `cgc_core_db`'s `collection` table's slug.
+    For example, if the marketplace support `TOKENS`, named `tokens.json`
 - Replace `nft_type` option named `Collection Name`
 - Replace `fee_rate` option. That is service fee by percent.
 - DO NOT EDIT OTHER OPTIONS.
@@ -73,10 +71,10 @@ You have to provide three options.
 
 For example:
 
-`yarn open_market -k /home/alex/blockchain/Keys/alex.json --config /home/alex/blockchain/cgc-solana-contracts/nft_marketplace/config/dev.json -e mainnet-beta`
+`yarn open_market -k /home/abe/blockchain/Keys/abe.json --config /home/abe/blockchain/solana-contracts/nft_marketplace/config/dev.json -e mainnet-beta`
 
 
 ------------------------------------------
 ### For Developer Comment
 #### - devnet
-`yarn open_market -k /home/alex/blockchain/Keys/alex.json --config /home/alex/blockchain/cgc-solana-contracts/nft_marketplace/config/dev.json`
+`yarn open_market -k /home/abe/blockchain/Keys/abe.json --config /home/abe/blockchain/solana-contracts/nft_marketplace/config/dev.json`
